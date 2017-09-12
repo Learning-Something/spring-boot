@@ -1,13 +1,13 @@
 package com.algaworks.gestaofesta.model;
 
 import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
 
-@Getter
 @Entity
 public class Convidado implements Serializable {
 
@@ -15,10 +15,10 @@ public class Convidado implements Serializable {
 
     @Id
     @GeneratedValue
-    private Long id;
+    @Getter @Setter private Long id;
 
-    private String nome;
+    @Getter @Setter private String nome;
 
-    private Integer quantidadeAcompanhantes;
+    @Getter @Setter private Integer quantidadeAcompanhantes;
 
 }

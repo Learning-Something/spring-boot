@@ -11,7 +11,11 @@
 .springBeans
 
 ### IntelliJ IDEA ###
-.idea
+.idea/libraries
+.idea/dbnavigator.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules.xml
 *.iws
 *.iml
 *.ipr
